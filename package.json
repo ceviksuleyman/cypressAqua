@@ -1,0 +1,10 @@
+{
+  "name": "cypressWeb",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "*"
+  },
+  "scripts": {
+    "test": "npx cypress run --spec 'cypress/e2e/logintest.cy.js' --browser chrome --headed"
+  }
+}
