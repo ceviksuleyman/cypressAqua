@@ -5,6 +5,8 @@
     "cypress": "*"
   },
   "scripts": {
-    "test": "npx cypress run --spec 'cypress/e2e/logintest.cy.js' --browser chrome --headed"
+    "test": "npx cypress run --spec 'cypress/e2e/loginTest.cy.js' --browser chrome --headed",
+    "testConfig": "npx cypress run --spec 'cypress/e2e/logintestConfig.cy.js' --browser chrome --headed",
+    "testPom": "npx cypress run --spec 'cypress/e2e/loginPOM.cy.js' --browser chrome --headed"
   }
 }
