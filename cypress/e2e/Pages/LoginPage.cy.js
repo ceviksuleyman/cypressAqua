@@ -24,6 +24,11 @@ class LoginPage {
 
         return cy.get('.shop-menu')
     }
+
+    getHeaderScreenShoot() {
+
+        return cy.get('#header .row').screenshot()
+    }
 }
 
 export default LoginPage;

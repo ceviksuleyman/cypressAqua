@@ -7,10 +7,7 @@ describe("Automation Exercise", () => {
         });
     });
 
-    /**
-     * configuration.properties kullanimina benzer kullanim fixture autoexercise json dosyasi olusturup
-     * icerisinden datalari function ile alabiliyoruz
-     */
+
     it("Automation Exercise Login Test", function () {
 
         cy.visit(this.data.url);

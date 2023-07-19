@@ -1,5 +1,5 @@
-import HomePage from "./POM/HomePage.cy";
-import LoginPage from "./POM/LoginPage.cy";
+import HomePage from "./Pages/HomePage.cy";
+import LoginPage from "./Pages/LoginPage.cy";
 
 describe("Automation Exercise", () => {
 
@@ -34,6 +34,8 @@ describe("Automation Exercise", () => {
             .and("contain.text", "Cart")
             .and("contain.text", "Logout")
             .and("contain.text", "API Testing");
+
+        loginPage.getHeaderScreenShoot();
 
         cy.wait(3000)
     });
