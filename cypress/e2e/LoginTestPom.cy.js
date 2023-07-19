@@ -1,5 +1,5 @@
-import HomePage from "./Pages/HomePage.cy";
-import LoginPage from "./Pages/LoginPage.cy";
+import HomePage from "./pages/HomePage.cy";
+import LoginPage from "./pages/LoginPage.cy";
 
 describe("Automation Exercise", () => {
 
